@@ -1,0 +1,7 @@
+//select
+//field names --> id,name,project_name__c
+    //from
+       //object name --> salesforce_project__c
+//select id, name, project_Name__c, status__c from Salesforce_Project__c
+
+select id, Name, MailingCity from Contact WHERE MailingCity = ''

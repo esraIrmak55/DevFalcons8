@@ -1,0 +1,3 @@
+select id, name, phone from account WHERE phone != NULL
+
+select id, name, phone, website, AccountNumber from account WHERE(phone != NULL or website !=null) and AccountNumber !=NULL
