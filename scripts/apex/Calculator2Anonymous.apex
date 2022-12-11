@@ -3,10 +3,10 @@
 //string result = calc.printAndReturnMessage('This is a parameter');
 //System.debug(result);
 
-integer sum1 = Calculator2.add(15, 40);
-System.debug('sum1 = ' + sum1);
+integer sum1 = Calculator2.add(15, 150);
+System.debug('sum1 = ' + sum1); //165
 
-integer sum2 = Calculator2.add(15, 40, 25);
+integer sum2 = Calculator2.add(15, 150, 55);
 System.debug('sum2 = ' + sum2 );
 
 
